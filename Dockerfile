@@ -1,6 +1,6 @@
 FROM resin/rpi-raspbian:latest
 
-MAINTAINER Cody Bushnell <cody.bushnell@controlsdata.com>
+MAINTAINER Cody Bushnell <bushnellcb@gmail.com>
 
 RUN apt-get update  && apt-get upgrade && apt-get install -y \
 	python3 \
